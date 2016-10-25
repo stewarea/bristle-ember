@@ -1,8 +1,15 @@
-<div class='panel panel-default'>
-  <li>
-    {{#link-to 'article' article.id}}{{article.title}}{{article.author}}
-      {{article.text}}
-      <p><img src={{article.image}} {{action 'imageHide'}}></p>
+<div class='panel panel-default row'>
+
+    {{#link-to 'article' article.id}}
+    <div class="col-sm-4">
+      <img  class="preview img-responsive" src={{article.image}} {{action 'imageHide'}}>
+    </div>
+    <div class="col-sm-8">
+      <h1>  {{article.title}} {{article.author}}</h1>
+    </div>
+
+
     {{/link-to}}
-  </li>
+      <!-- </iv> -->
+
 </div>
