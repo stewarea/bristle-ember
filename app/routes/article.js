@@ -14,6 +14,11 @@ export default Ember.Route.extend({
       });
       article.save();
       this.transitionTo("article");
+    },
+    delete(model){
+      alert("nafl");
+      model.destroyRecord();
+      this.transitionTo('index');
     }
   }
 });
