@@ -13,9 +13,9 @@
     {{input value=preview id="preview" placeholder=article.preview}}
     <label for="">Date:</label>
     {{input value=date id="date" placeholder=article.date}}
-    <button {{action 'updateArticle' article}}>Save</button>
+    <button class="btn btn-success"{{action 'updateArticle' article}}>Save</button>
   </form>
 </div>
 {{else}}
-  <button {{action 'showUpdateArticleForm'}}>Update Article</button>
+  <button class="btn btn-success" {{action 'showUpdateArticleForm'}}>Update Article</button>
 {{/if}}

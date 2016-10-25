@@ -7,13 +7,15 @@ export default Ember.Component.extend({
       this.set('addNewArticle', true);
     },
     saveArticle(){
+      var newDate = new Date();
+      var newnewDate = newDate.toString().substring(0, 11);
       var params = {
         author: this.get('author'),
         title: this.get('title'),
         image: this.get('image'),
         text: this.get('text'),
         preview: this.get('preview'),
-        date: this.get('date'),
+        date: newnewDate
 
       };
       this.set('addNewArticle', false);

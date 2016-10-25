@@ -1,8 +1,10 @@
-
-{{model.title}} by {{model.author}}
-<div class="">
-  <img src="{{model.image}}" alt="" />
-  <p>{{model.text}}</p>
+<div class="well">
+  {{model.title}} by {{model.author}}
+  <div class="">
+    <img  class="fullImage" src="{{model.image}}" alt="" />
+    <p>{{model.text}}</p>
+  </div>
 </div>
+
 {{update-article article=model updateArticle2="updateArticle2"}}
 <button {{action 'delete' model}} class="btn btn-danger"> DELETE!!!</button>

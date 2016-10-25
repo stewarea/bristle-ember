@@ -1,15 +1,16 @@
 <div class='panel panel-default row'>
 
     {{#link-to 'article' article.id}}
+    <div class="overlay">
     <div class="col-sm-4">
       <img  class="preview img-responsive" src={{article.image}} {{action 'imageHide'}}>
     </div>
     <div class="col-sm-8">
-      <h1>  {{article.title}} {{article.author}}</h1>
+      <h1>  {{article.title}} by {{article.author}}</h1>
       {{article.preview}}
       {{article.date}}
     </div>
+      </div>
     {{/link-to}}
-      <!-- </iv> -->
 
 </div>
