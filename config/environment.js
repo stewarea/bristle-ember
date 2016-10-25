@@ -13,6 +13,14 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyAZQkhFH7CaX88ZzJl1Qc8w2xZB9bdWBIk",
+      authDomain: "bristles-aa860.firebaseapp.com",
+      databaseURL: "https://bristles-aa860.firebaseio.com",
+      storageBucket: "bristles-aa860.appspot.com"
+      // messagingSenderId: "130888708171"
+  },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

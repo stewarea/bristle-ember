@@ -1,0 +1,19 @@
+{ "articles": [{
+    "title": "How to sweep a floor",
+    "author": "Beardy McGuff",
+    "image": "http://cdn.shopify.com/s/files/1/0175/5486/products/Large-Broom--Mixed_5484-FINAL-Credit-Jason-Varney.jpg?v=1443025525",
+    "text": "This is an article about a broom"},
+    {
+      "title": "Save the bristle cone pine forest",
+      "author": "Woody Woodpecker",
+      "image": "https://www.google.com/search?q=broom&espv=2&biw=1561&bih=1221&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiHgO-PtfbPAhUWzWMKHRObB3cQ_AUIBigB#tbm=isch&q=britsle+cone+pine&imgrc=xO5QJA__qy0xGM%3A",
+      "text": "methuselah is the oldest living tree"
+    },
+    {
+      "title": "Flouride Conspiracy",
+      "author": "Dr Robert Price",
+      "image": "http://top5best.org/wp-content/uploads/2015/09/Danger-fluoride-alert.png",
+      "text": "bad, nasty stuff"
+    }
+]
+}
