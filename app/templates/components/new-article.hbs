@@ -1,0 +1,12 @@
+<form >
+  <h1>Make a new article</h1>
+  <label for="">Author</label>
+  {{ input value=author  id="author"}}
+  <label for="">Title</label>
+  {{ input value=title  id="title"}}
+  <label for="">Image</label>
+  {{ input value=image  id="image" placeholder="image path"}}
+  <label for="">Text</label>
+  {{ input value=text  id="text"}}
+  <button {{action 'saveArticle'}}class="btn btn-success">Create New Article</button>
+</form>

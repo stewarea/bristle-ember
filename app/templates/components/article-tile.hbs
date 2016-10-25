@@ -1,6 +1,8 @@
-<li>
-  {{#link-to 'article' article.id}}{{article.title}}{{article.author}}
-    {{article.text}}
-    <p><img src={{article.image}} {{action 'imageHide'}}></p>
-  {{/link-to}}
-</li>
+<div class='panel panel-default'>
+  <li>
+    {{#link-to 'article' article.id}}{{article.title}}{{article.author}}
+      {{article.text}}
+      <p><img src={{article.image}} {{action 'imageHide'}}></p>
+    {{/link-to}}
+  </li>
+</div>

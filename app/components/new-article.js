@@ -1,21 +1,20 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  updateArticleForm: false,
+  addNewArticle: false,
   actions:{
-    showUpdateArticleForm(){
-
-      this.set('updateArticleForm', true);
+    articleFormShow(){
+      this.set('addNewArticle', true);
     },
-    updateArticle(article){
+    saveArticle(){
       var params = {
         author: this.get('author'),
         title: this.get('title'),
         image: this.get('image'),
         text: this.get('text'),
       };
-      this.set('updateArticleForm', false);
-      this.sendAction('updateArticle2', article, params);
+      this.set('addNewArticle', false);
+      this.sendAction('saveArticle2', params);
     }
   }
 });
