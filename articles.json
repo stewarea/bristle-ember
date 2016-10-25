@@ -2,18 +2,25 @@
     "title": "How to sweep a floor",
     "author": "Beardy McGuff",
     "image": "http://cdn.shopify.com/s/files/1/0175/5486/products/Large-Broom--Mixed_5484-FINAL-Credit-Jason-Varney.jpg?v=1443025525",
-    "text": "This is an article about a broom"},
+    "text": "ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of comes from a line in section 1.10.32.",
+    "preview": "Here is an article about sweeping floors",
+    "date": "11-11-1111"
+  },
     {
       "title": "Save the bristle cone pine forest",
       "author": "Woody Woodpecker",
-      "image": "https://www.google.com/search?q=broom&espv=2&biw=1561&bih=1221&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiHgO-PtfbPAhUWzWMKHRObB3cQ_AUIBigB#tbm=isch&q=britsle+cone+pine&imgrc=xO5QJA__qy0xGM%3A",
-      "text": "methuselah is the oldest living tree"
+      "image": "https://s-media-cache-ak0.pinimg.com/originals/1d/34/3c/1d343c34e383b72fc557e3998af08540.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et urna at libero rutrum auctor. Phasellus odio leo, tempus in sapien vel, consequat mollis urna. Cras rhoncus ligula ornare dignissim fermentum. Aliquam sed neque nec mi interdum pretium ut vel ipsum. Praesent auctor, eros ut rhoncus interdum, diam lorem molestie nibh, ut euismod felis sem sit amet sem. Nullam massa ligula, sagittis et vehicula et, facilisis at metus. In vel aliquam eros, eget pretium risus. Nullam malesuada ligula quis ornare commodo. Aliquam a justo id purus egestas faucibus ac vel elit. Proin sit amet ultricies lectus. Nulla eu volutpat nunc. Curabitur nulla nisi, consectetur ut porta sed, rutrum ut ligula. Nullam tempus leo quis odio mattis, nec interdum quam rutrum.",
+      "preview": "Here is an article about sweeping floors",
+      "date": "11-11-1111"
     },
     {
       "title": "Flouride Conspiracy",
       "author": "Dr Robert Price",
       "image": "http://top5best.org/wp-content/uploads/2015/09/Danger-fluoride-alert.png",
-      "text": "bad, nasty stuff"
+      "text": "Praesent vitae purus tincidunt quam dictum lacinia. Etiam volutpat orci nisl, in rutrum mi laoreet eu. Proin interdum lectus orci, vel vehicula elit lobortis nec. Ut auctor arcu nibh, ac efficitur nulla efficitur eu. Etiam ultricies lacus vel nisi lacinia tempus. In sed erat eros. Duis ullamcorper hendrerit mollis. Donec mollis, erat consectetur dapibus ael eros turpis. Quisque mattis, diam non lobortis efficitur, velit nulla aliquam mauris, vel volutpat turpis ipsum sit amet augue. Integer nec sollicitudin lectus, et dictum mi. Integer tortor metus, euismod sed nunc eget, mattis interdum ligula. Nulla viverra arcu quis sem consectetur tincidunt. Etiam id elementum neque, id lobortis sapien. Aliquam eu tortor non nulla tempor vehicula. Mauris eu nunc tempus, tempus lorem sed, hendrerit tortor. Nunc faucibus feugiat eros, nec varius massa.",
+      "preview": "Here is an article about sweeping floors",
+      "date": "11-11-1111"
     }
 ]
 }
