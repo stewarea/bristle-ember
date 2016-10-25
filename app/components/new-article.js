@@ -12,6 +12,9 @@ export default Ember.Component.extend({
         title: this.get('title'),
         image: this.get('image'),
         text: this.get('text'),
+        preview: this.get('preview'),
+        date: this.get('date'),
+
       };
       this.set('addNewArticle', false);
       this.sendAction('saveArticle2', params);
